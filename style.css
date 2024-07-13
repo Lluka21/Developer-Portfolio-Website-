@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(22, 22, 22);
+  font-family: "Space Grotesk", sans-serif;
+  margin: 70px auto;
+  width: 1300px;
+}
+
+header {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-menu img:hover {
+  cursor: pointer;
+}
+
+.header-content {
+  color: #fff;
+  margin: 70px auto;
+  width: 1300px;
+  font-size: 30px;
+  background-image: url(/assets/images/image-profile-desktop.webp);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  margin-top: 100px;
+}
+
+span {
+  text-decoration: underline;
+  text-decoration-color: #4ee1a0;
+}
+
+.header-content p {
+  margin-top: 15px;
+  color: grey;
+  width: 55%;
+  margin-bottom: 90px;
+}
+
+.enter-name,
+.enter-email {
+  width: 300px;
+  height: 50px;
+  margin-bottom: 10px;
+  background-color: rgb(66, 66, 66);
+  border: none;
+  /* border-bottom: 1px solid; */
+  border-radius: 10px;
+}
+
+textarea {
+  width: 300px;
+  height: 50px;
+  margin-bottom: 10px;
+  background-color: rgb(66, 66, 66);
+  border: none;
+  border-bottom: 1px solid;
+  border-radius: 10px;
+}
+
+.contact-info a {
+  text-decoration: underline;
+  text-decoration-color: #4ee1a0;
+  color: #fff;
+  letter-spacing: 3px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.contact-info a:hover {
+  color: #4ee1a0;
+}
+
+hr {
+  margin-top: 90px;
+}
+
+.experience {
+  color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 1300px;
+  margin: 70px auto;
+  row-gap: 40px;
+  margin-bottom: 100px;
+}
+
+.experience h2 {
+  margin-bottom: 12px;
+  font-size: 30px;
+  cursor: pointer;
+}
+.experience h2:hover {
+  color: #4ee1a0;
+}
+
+.experience p {
+  color: rgb(202, 201, 201);
+}
+
+.main-description {
+  color: #fff;
+  width: 1300px;
+  margin: 70px auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.main-description h2 {
+  font-weight: 500;
+  font-size: 50px;
+}
+
+.contactme a {
+  text-decoration: underline;
+  text-decoration-color: #4ee1a0;
+  color: #fff;
+  letter-spacing: 3px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.contactme a:hover {
+  color: #4ee1a0;
+}
+
+.projects {
+  color: #fff;
+  width: 1300px;
+  margin: 70px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 30px;
+  column-gap: 30px;
+  justify-content: center;
+  margin-bottom: 120px;
+}
+
+.projects h4 {
+  margin-top: 10px;
+  margin-bottom: 8px;
+  font-size: 21px;
+}
+
+.projects p {
+  color: rgb(202, 201, 201);
+}
+
+.projects img {
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 100px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 100px;
+  margin: 70px auto;
+  width: 1300px;
+}
+
+.contact-top h2 {
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+
+.contact-top p {
+  color: rgb(190, 189, 189);
+}
